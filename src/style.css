@@ -1,0 +1,119 @@
+:root {
+  --bg-color_start: rgb(9, 21, 39);
+  --bg-color_finish: #190b05;
+
+  --text-color-primary_ligth: #dfb3a1;
+  --text-color-secondary_ligth: #d9a590;
+  --text-color-primary_dark: #190b05;
+  --text-color-secondary_dark: #28130a;
+
+  --page-color_ligth: #e4cfc7;
+  --page-color_dark: #190b05;
+  --white: #ffffff;
+}
+
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+#myAnimation {
+  width: 90%;
+  right: 15px;
+  bottom: 5px;
+  position: absolute;
+}
+
+.head {
+  background-color: var(--page-color_ligth);
+}
+
+.bg-myColor {
+  background-image: linear-gradient(to bottom right, var(--bg-color_start),var(--bg-color_finish) );
+    /* background-color: #823604; */
+
+}
+
+.navText {
+  color: var(--text-color-primary_ligth);
+}
+
+.footer {
+  position: relative;
+  background-color: var(--page-color_dark);
+  height: 200px;
+}
+
+.footer-text {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  color: var(--text-color-primary_ligth);
+}
+
+.head-text {
+  position: relative;
+}
+
+.image{
+  width: 100%;
+}
+
+.me-i{
+  width: 100%;
+  border: 5px solid var(--white);
+  border-radius: 20px;
+}
+
+.center-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-embroidery
+{
+  margin:0px auto 0px auto; display:block;
+  width: 40%;
+}
+
+
+.text-about-me {
+  color: var(--text-color-primary_dark);
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.wink-button {
+  margin: 8px;
+  color: var(--white);
+  font-weight: bolder;
+}
+
+
+.text-on-image-right {
+ position: absolute;
+ color: var(--text-color-primary_ligth);
+ right: 20%;
+ left: 80%;
+ bottom: 50%;
+}
+
+.text-on-image-left {
+  position: absolute;
+  color: var(--text-color-primary_ligth);
+  right: 90%;
+  left: 10%;
+  bottom: 20%;
+ }
+ 
+ .my-image {
+  margin: 10%;
+ }
+
+ .border03 {
+  height: 4px;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, var(--page-color_ligth) 50%, var(--page-color_ligth) 100%), linear-gradient(90deg, #190b05, #3f1f11, #e0e4cc, rgb(152, 88, 39), #fa6900);
+  background-size: 20px 3px, 100% 3px;
+  border: none;
+}
